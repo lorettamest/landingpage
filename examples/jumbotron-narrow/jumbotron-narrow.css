@@ -1,0 +1,144 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+ background: url('../../dist/images/books.jpg');
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 0px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.nav-pills li a{
+  color: white;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: white;
+  border-top: 1px solid #e5e5e5;
+  background-image: url();
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: FFC573;
+  box-shadow: 60px  rgb(225,225,225)
+  z-index: 70px;
+
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 5px;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+    
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+  h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 20px;
+    font-size: 14px;
+  }
+
+   .lead{
+    font-family: 'PT Sans Narrow', sans-serif;
+   }
+
+   h4{
+     font-family: 'Berkshire Swash', cursive;
+     font-size: 20px;
+   }
+
+  #copy{
+
+    font-color:white;
+  }
+
+  .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #148fdb);
+    background-image: -moz-linear-gradient(top, #3498db, #148fdb);
+    background-image: -ms-linear-gradient(top, #3498db, #148fdb);
+    background-image: -o-linear-gradient(top, #3498db, #148fdb);
+    background-image: linear-gradient(to bottom, #3498db, #148fdb);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 1px 2px #666666;
+    -webkit-box-shadow: 11px 1px 10px #857685;
+    -moz-box-shadow: 11px 1px 10px #857685;
+    box-shadow: 11px 1px 10px #857685;
+    font-family: Arial;
+    color: #f0f0f0;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+}
+
